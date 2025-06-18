@@ -70,14 +70,14 @@ juce_add_plugin("${PROJECT_NAME}"
 
     # A unique four-character plugin id
     # Note: this must have at least one upper-case character
-    PLUGIN_CODE Y001
+    PLUGIN_CODE Lane
     FORMATS "${FORMATS}"
 
     # The name of your final executable
     # This is how it's listed in the DAW
     # This can be different from PROJECT_NAME and can have spaces!
     # You might want to use v${MAJOR_VERSION} here once you go to v2...
-    PRODUCT_NAME "${PRODUCT_NAME}")
+    PRODUCT_NAME "Yaou Lane v${MAJOR_VERSION}")
 
 # This lets us use our code in both the JUCE targets and our Test target
 # Without running into ODR violations
