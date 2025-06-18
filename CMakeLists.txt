@@ -30,7 +30,7 @@ set(PRODUCT_NAME "yaouLane_v${MAJOR_VERSION}")
 set(COMPANY_NAME "yaouDev/AugustJansson")
 
 # Used for the MacOS bundle identifier (and signing) / Not currently used
-# set(BUNDLE_ID "com.pamplejuce.pamplejuce")
+ set(BUNDLE_ID "com.yaoulane.yaoulane")
 
 # Set the plugin formats you want built / Build AAX in the future - needs validation from Avid
 # Valid choices: AAX Unity VST VST3 AU AUv3 Standalone
