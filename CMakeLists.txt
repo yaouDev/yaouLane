@@ -24,7 +24,7 @@ set(PROJECT_NAME "yaouLane")
 #   set(PROJECT_NAME "MyPlugin_v${MAJOR_VERSION}")
 # Doing so enables major versions to show up in IDEs and DAWs as separate plugins
 # allowing you to change parameters and behavior without breaking existing user projects
-set(PRODUCT_NAME "yaouLane_v${MAJOR_VERSION}")
+set(PRODUCT_NAME "Yaou Lane v${MAJOR_VERSION}")
 
 # Used for the MacOS bundle name and Installers
 set(COMPANY_NAME "yaouDev/AugustJansson")
@@ -77,7 +77,7 @@ juce_add_plugin("${PROJECT_NAME}"
     # This is how it's listed in the DAW
     # This can be different from PROJECT_NAME and can have spaces!
     # You might want to use v${MAJOR_VERSION} here once you go to v2...
-    PRODUCT_NAME "Yaou Lane v${MAJOR_VERSION}")
+    PRODUCT_NAME "${PRODUCT_NAME}")
 
 # This lets us use our code in both the JUCE targets and our Test target
 # Without running into ODR violations
@@ -122,7 +122,7 @@ target_compile_definitions(SharedCode
     VERSION="${CURRENT_VERSION}"
 
     # JucePlugin_Name is for some reason doesn't use the nicer PRODUCT_NAME
-    PRODUCT_NAME_WITHOUT_VERSION="yaouLane"
+    PRODUCT_NAME_WITHOUT_VERSION="Yaou Lane"
 )
 
 # Link to any other modules you added (with juce_add_module) here!
