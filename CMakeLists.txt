@@ -24,7 +24,7 @@ set(PROJECT_NAME "yaouLane")
 #   set(PROJECT_NAME "MyPlugin_v${MAJOR_VERSION}")
 # Doing so enables major versions to show up in IDEs and DAWs as separate plugins
 # allowing you to change parameters and behavior without breaking existing user projects
-set(PRODUCT_NAME "Yaou Lane v${MAJOR_VERSION}")
+set(PRODUCT_NAME "Yaou Lane")
 
 # Used for the MacOS bundle name and Installers
 set(COMPANY_NAME "yaouDev/AugustJansson")
