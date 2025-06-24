@@ -5,6 +5,8 @@ on:
   push:
     paths-ignore:
       - 'documentation/**'
+      - 'README.md'
+      - '.github/workflows/**'
   pull_request:
 
 # When pushing new commits, cancel any running builds on that branch
