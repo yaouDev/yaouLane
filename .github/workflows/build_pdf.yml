@@ -50,7 +50,7 @@ jobs:
             ${{ steps.markdown_files_list.outputs.file_list }} # the markdown documents found in previous step
 
       - name: Upload PDF artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: manual-pdf-${{ env.CURRENT_DATE }}-version-${{ env.RUN_NUMBER }}
           path: documentation/versions/${{ env.CURRENT_DATE }}-version-${{ env.RUN_NUMBER }}-manual.pdf
